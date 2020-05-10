@@ -28,16 +28,8 @@ export default function Home({ allPostsData }) {
             className = {`${utilStyles.detaLink}`}> 
             Deta
           </a> 
-          <img 
-            src="deta.svg"
-            className= {`${utilStyles.detaLogo}`}   
-          />
         </p>
         <p>Gopher 
-          <img
-            src="golang.png"
-            className= {`${utilStyles.golangLogo}`}
-          />
         </p>
         <p></p>
       </section>
