@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Profiles from './profiles.js'
 
 const name = 'Aavash Shrestha'
 export const siteTitle = 'Aavash Shrestha'
@@ -25,6 +26,7 @@ export default function Layout({ children, home }) {
               className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
               alt={name}
             />
+            <Profiles/>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
@@ -38,6 +40,7 @@ export default function Layout({ children, home }) {
                 />
               </a>
             </Link>
+            <Profiles/>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
                 <a className={utilStyles.colorInherit}>{name}</a>
