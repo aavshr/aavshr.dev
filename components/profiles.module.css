@@ -1,0 +1,22 @@
+.linksContainer {
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    margin: 0.5 1rem;
+}
+
+.linkIcon {
+   scale: 0.4; 
+   color: black;
+}
+
+.linkIconLinkedIn {
+    scale:0.38;
+    position: relative;
+    top: -0.1rem;
+    color: black;
+}
+
+.profileLink:hover {
+    transform: scale(1.1);
+}
