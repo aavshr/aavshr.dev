@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
           </Link>
           <br/>
            <small className={utilStyles.lightText}>
-            A chrome extension to link to specific part of a webpage
+            A chrome extension to link to any specific part of a webpage
            </small>
           </li>
         </ul>

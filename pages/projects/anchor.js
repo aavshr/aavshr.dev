@@ -11,7 +11,7 @@ export default function Anchor() {
       <article>
         <h1 className={utilStyles.headingXl}>Anchor</h1>
         <div>
-          <p> A chrome extension to link to specific part of a webpage.</p>
+          <p> A chrome extension to link to any specific part of a webpage.</p>
           <iframe
             allowFullScreen
             frameborder="0"
