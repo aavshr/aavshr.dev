@@ -34,6 +34,20 @@ export default function Home({ allPostsData }) {
         <p></p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Projects</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+          <Link href="/projects/anchor">
+            <a>Anchor</a>  
+          </Link>
+          <br/>
+           <small className={utilStyles.lightText}>
+            A chrome extension to link to any specific part of a webpage
+           </small>
+          </li>
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>My Pointless Thoughts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
