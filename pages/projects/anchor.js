@@ -14,13 +14,13 @@ export default function Anchor() {
           <p> A chrome extension to link to any specific part of a webpage.</p>
           <iframe
             allowFullScreen
-            frameborder="0"
+            frameBorder="0"
             height="315"
             src="https://youtube.com/embed/fN5kLEhzKN4"
             width="560"
           />
           <br/>
-          <a href="https://github.com/aavshr/anchor">Source</a>
+          <a href="https://github.com/aavshr/anchor">Source</a> | <a href="https://chrome.google.com/webstore/detail/anchor/plcbdambeefcmomflohdlhknnpekhbhm">Get the extension</a>
         </div>
       </article>
     </Layout>
