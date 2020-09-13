@@ -37,6 +37,15 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
+          <Link href="https://github.com/aavshr/fixCache">
+            <a>FixCache</a>  
+          </Link>
+          <br/>
+           <small className={utilStyles.lightText}>
+            Github app to keep track to bug prone files from commit history
+           </small>
+          </li>
+          <li className={utilStyles.listItem}>
           <Link href="/projects/anchor">
             <a>Anchor</a>  
           </Link>
