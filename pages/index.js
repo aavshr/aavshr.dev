@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
           </Link>
           <br/>
            <small className={utilStyles.lightText}>
-            Github app to keep track to bug prone files from commit history
+            Github app to keep track of bug prone files from commit history
            </small>
           </li>
           <li className={utilStyles.listItem}>
