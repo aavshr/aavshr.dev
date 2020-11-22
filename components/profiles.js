@@ -21,7 +21,7 @@ export default function Profiles() {
             </a> 
             <a 
             className={styles.profileLink}
-            href="https://www.twitter.com/funkyQuacks">
+            href="https://www.twitter.com/aav_shr">
                 <div className={styles.linkIcon}>
                 <FontAwesomeIcon icon={faTwitter}/>
                 </div>
