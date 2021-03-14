@@ -37,18 +37,14 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Projects</h2>
         <ul className={utilStyles.list}>
           <li className={utilStyles.listItem}>
-          <Link href="https://github.com/aavshr/fixCache">
-            <a>FixCache</a>  
-          </Link>
+            <a href="https://github.com/aavshr/fixCache">FixCache</a>  
           <br/>
            <small className={utilStyles.lightText}>
             Github app to keep track of bug prone files from commit history
            </small>
           </li>
           <li className={utilStyles.listItem}>
-          <Link href="https://github.com/aavshr/grt">
-            <a>GRT</a>  
-          </Link>
+            <a href="https://github.com/aavshr/grt">GRT</a>  
           <br/>
            <small className={utilStyles.lightText}>
             Track code review turnaround for your github repository
